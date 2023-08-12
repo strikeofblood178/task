@@ -43,7 +43,7 @@ function App() {
       currentDate.setDate(currentDate.getDate() + 1);
     }
 
-    // Добавляем дополнительную колонку для достижения 51 ячейки
+  
     if (currentColumnData.length > 0) {
       while (currentColumnData.length < 7) {
         currentColumnData.push({ date: '', count: 0 });
