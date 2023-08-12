@@ -1,4 +1,4 @@
-/* App.css */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 
@@ -36,7 +36,6 @@
 
 .contribution-grid {
   display: grid;
-  /* grid-template-columns: repeat(53, 1fr); */
   grid-template-columns: repeat(50, 1fr);
   gap: 2px;
 
@@ -121,15 +120,7 @@
 }
 
 .popup {
-  /* position: absolute;
-  background-color: white;
-  border: 1px solid #ccc;
-  padding: 10px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 10; */
-
-
-  position: absolute;
+    position: absolute;
     background-color: #000;
     border: 1px solid #ccc;
     padding: 5px 9px 6px 9px;
